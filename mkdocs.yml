@@ -1,1 +1,45 @@
-site_name: My Docs
+site_name: Studying - arch-yzk
+
+nav:
+    - Home: index.md
+    - School:
+        - '4th grade':
+            - 'CCNP TSHOOT':
+                - Index: 'School/4th_grade/CCNP TSHOOT/index.md'
+            - 'security_practice':
+                - Index: 'School/4th_grade/security_practice/index.md'
+                - Homeworks:
+                    - '2020-06-10': 'School/4th_grade/security_practice/Homeworks/_2020-06-10.md'
+                    - '2020-06-17': 'School/4th_grade/security_practice/Homeworks/_2020-06-17.md'
+                    - '2020-06-24': 'School/4th_grade/security_practice/Homeworks/_2020-06-24.md'
+                    - '2020-07-01': 'School/4th_grade/security_practice/Homeworks/_2020-07-01.md'
+                    - '2020-07-08': 'School/4th_grade/security_practice/Homeworks/_2020-07-08.md'
+                    - '2020-07-15': 'School/4th_grade/security_practice/Homeworks/_2020-07-15.md'
+                    - '2020-07-22': 'School/4th_grade/security_practice/Homeworks/_2020-07-22.md'
+                    - '2020-07-29': 'School/4th_grade/security_practice/Homeworks/_2020-07-29.md'
+                    - '2020-08-05': 'School/4th_grade/security_practice/Homeworks/_2020-08-05.md'
+    - Infrastracture:
+        - Network:
+            - Index: Infrastracture/Network/index.md
+            - Router:
+                - auto-sammary: Infrastracture/Network/Router/auto-sammary.md
+        - Server(Linux):
+            - Index: Infrastracture/Linux/index.md
+            - Archlinux:
+                - too-quickly: Infrastracture/Linux/Archlinux/too-quickly.md
+    - Development:
+        - Language: Development/Language/index.md
+    - Books: Books/index.md
+
+theme:
+    name: 'material'
+    feature:
+        tabs: true
+
+markdown_extensions:
+    - admonition # Warning text
+    - def_list
+    - footnotes
+    - pymdownx.tabbed
+    - pymdownx.superfences
+    - codehilite

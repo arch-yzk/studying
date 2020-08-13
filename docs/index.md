@@ -1,17 +1,49 @@
-# Welcome to MkDocs
+# こんにちは :\)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+この文書は、私(arch-yzk)が勉強したものをMarkdownとして文書化、公開しているものです。個人的な利用を目的としているため、内容を保証するものではありません。
 
-## Commands
+## 内容
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Home
+> 本ページ
+- School
+> 学校で勉強したこと等
+- Infrastracture
+> ネットワークやOS等、バックエンドの低レイヤに関するもの
+- Development
+> プログラミング言語やツール等
+- Books
+> 書籍を読んで勉強したこと、考え方として身についたこと
 
-## Project layout
+## ディレクトリ構造
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+記述として、`*`で始めた名称はディレクトリ、`-`で始めた名称はファイルです。
+
+
+### School
+
+    * School
+        * 4th_grade
+            * CCNP TSHOOT
+            * security_practice
+                - index.md
+                * Homeworks
+                    - (homeworks) # 課題たち
+
+### Infrastracture
+
+    * Infrastructure
+        * Linux
+        * Network
+
+### Development
+
+    * Development
+        * Language
+            - index.md
+            * (Languages) # 未定
+                - index.md
+
+### Books
+
+    * Books
