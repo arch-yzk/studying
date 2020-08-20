@@ -1,4 +1,4 @@
-site_name: Studying - arch-yzk
+site_name: arch-yzk
 
 nav:
     - Home: index.md
@@ -18,18 +18,31 @@ nav:
                     - '2020-07-22': 'School/4th_grade/security_practice/Homeworks/_2020-07-22.md'
                     - '2020-07-29': 'School/4th_grade/security_practice/Homeworks/_2020-07-29.md'
                     - '2020-08-05': 'School/4th_grade/security_practice/Homeworks/_2020-08-05.md'
+                    - '2020-08-19': 'School/4th_grade/security_practice/Homeworks/_2020-08-19.md'
     - Infrastracture:
         - Network:
             - Index: Infrastracture/Network/index.md
             - Router:
                 - auto-sammary: Infrastracture/Network/Router/auto-sammary.md
         - Server(Linux):
-            - Index: Infrastracture/Linux/index.md
             - Archlinux:
-                - too-quickly: Infrastracture/Linux/Archlinux/too-quickly.md
+                - Index: Infrastracture/Linux/index.md
+                - too-quickly: Infrastracture/Linux/too-quickly.md
     - Development:
         - Language: Development/Language/index.md
     - Books: Books/index.md
+    - Tips:
+        - PC:
+            - Tips/PC/bluetooth.md
+    - Other:
+        - favorite_tools:
+            - Index: Other/favorite_tools/index.md
+            - tools: Other/favorite_tools/tools.md
+        - Archlinux:
+            - Index: Other/Archlinux/index.md
+            - custom:
+                - CLI: Other/Archlinux/custom/CLI.md
+                - GUI: Other/Archlinux/custom/GUI.md
 
 theme:
     name: 'material'

@@ -14,6 +14,10 @@
 > プログラミング言語やツール等
 - Books
 > 書籍を読んで勉強したこと、考え方として身についたこと
+- Tips
+> 豆知識(PCの内容に限らない)
+- Other
+> 自分の個人設定、お気に入りのツールなど勉強以外の内容
 
 ## ディレクトリ構造
 
@@ -34,6 +38,9 @@
 
     * Infrastructure
         * Linux
+            - index.md
+            - too-quickly.md
+            * Archlinux
         * Network
 
 ### Development
@@ -47,3 +54,21 @@
 ### Books
 
     * Books
+
+### Tips
+
+    * Tips
+        * PC
+            - bluetooth.md
+
+### Other
+
+    * Other
+        * favorite_tools
+            - index.md
+            - tools.md
+        * Archlinux
+            - index.md
+            * custom
+                - GUI.md
+                - CLI.md
